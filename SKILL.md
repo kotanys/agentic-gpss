@@ -32,6 +32,8 @@ ADVANCE *2
 ./get-time-moment.py --all -t 60 'GENERATE 20' 'GENERATE 10,,20'
 ```
 
+Смотри `./get-time-moment.py --help`.
+
 ### Особые правила работы с GPSS
 
 #### Нумерация

@@ -188,7 +188,8 @@ def simulate(blocks, t, collect_all=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Показать события блоков GENERATE в заданный момент времени GPSS-модели."
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
         "-t", "--time", required=True, help="момент времени, например 60"
